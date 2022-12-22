@@ -1,1 +1,70 @@
-<mxfile host="app.diagrams.net" modified="2022-12-22T06:25:36.082Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54" version="20.7.4" etag="Tif45LzHyJNJ00mQKbNz" type="github"><diagram id="5iUvqRLTbiqQ9ycetfSQ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-22T07:23:48.910Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54" version="20.7.4" etag="0SFLwV_-1AQm_j9h3RTP" type="github">
+  <diagram id="9v5U3rUsqMty6VWqnnN-" name="Page-1">
+    <mxGraphModel dx="1050" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nf0f4i7ak3uYKai9TJzF-1" value="Booking" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=15;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#6666FF;" vertex="1" parent="1">
+          <mxGeometry x="340" y="350" width="170" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="nf0f4i7ak3uYKai9TJzF-2" value="Booking_id&#xa;Cust_id&#xa;Table_id&#xa;Payment_id&#xa;Booking_time&#xa;Booking_date&#xa;Coupon_id&#xa;Status" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=13;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="nf0f4i7ak3uYKai9TJzF-1">
+          <mxGeometry y="30" width="170" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="nf0f4i7ak3uYKai9TJzF-3" value="Table" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#6666FF;" vertex="1" parent="1">
+          <mxGeometry x="50" y="240" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="nf0f4i7ak3uYKai9TJzF-4" value="Table_id&#xa;Type&#xa;Status&#xa;Table_no&#xa;No_of_chair&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=13;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="nf0f4i7ak3uYKai9TJzF-3">
+          <mxGeometry y="30" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="nf0f4i7ak3uYKai9TJzF-5" value="Offer" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=3;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#6666FF;" vertex="1" parent="1">
+          <mxGeometry x="50" y="550" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="nf0f4i7ak3uYKai9TJzF-6" value="Coupon_id&#xa;Coupon_code&#xa;Price&#xa;Validity" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=13;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="nf0f4i7ak3uYKai9TJzF-5">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="nf0f4i7ak3uYKai9TJzF-8" value="Customer" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#6666FF;" vertex="1" parent="1">
+          <mxGeometry x="620" y="260" width="170" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="nf0f4i7ak3uYKai9TJzF-9" value="Cust_id&#xa;Name&#xa;Contact_no.&#xa;Email&#xa;Adderess&#xa;No_of_person" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=13;verticalAlign=top;resizable=0;rotatable=0;part=1;strokeWidth=3;" vertex="1" parent="nf0f4i7ak3uYKai9TJzF-8">
+          <mxGeometry y="30" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="nf0f4i7ak3uYKai9TJzF-10" value="Payment" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#6666FF;" vertex="1" parent="1">
+          <mxGeometry x="350" y="560" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="nf0f4i7ak3uYKai9TJzF-11" value="Payment_id&#xa;Type&#xa;BasePrice&#xa;Total_Price&#xa;Txn_id" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=13;verticalAlign=top;resizable=0;rotatable=0;part=1;strokeWidth=3;" vertex="1" parent="nf0f4i7ak3uYKai9TJzF-10">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="nf0f4i7ak3uYKai9TJzF-14" value="" style="endArrow=none;html=1;rounded=0;fontSize=13;entryX=-0.016;entryY=0.13;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="nf0f4i7ak3uYKai9TJzF-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="309.5" as="sourcePoint" />
+            <mxPoint x="370" y="309.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nf0f4i7ak3uYKai9TJzF-19" value="" style="endArrow=none;html=1;rounded=0;fontSize=13;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" target="nf0f4i7ak3uYKai9TJzF-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="549" as="sourcePoint" />
+            <mxPoint x="350" y="549" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nf0f4i7ak3uYKai9TJzF-21" value="" style="endArrow=none;html=1;rounded=0;fontSize=13;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="nf0f4i7ak3uYKai9TJzF-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="450" as="sourcePoint" />
+            <mxPoint x="425" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nf0f4i7ak3uYKai9TJzF-22" value="" style="endArrow=none;html=1;rounded=0;fontSize=13;entryX=-0.021;entryY=0.653;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="nf0f4i7ak3uYKai9TJzF-2" target="nf0f4i7ak3uYKai9TJzF-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="440" as="sourcePoint" />
+            <mxPoint x="660" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nf0f4i7ak3uYKai9TJzF-23" value="Resturant Table Dineout Booking" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="390" y="10" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nf0f4i7ak3uYKai9TJzF-27" value="&lt;h1&gt;Business Logic&lt;/h1&gt;&lt;p&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;1.Total number of booking each_day and maximum on which day during week.&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;=&amp;gt;select Booking_date,count(*) as total_booking from booking where status=&#39;completed&#39; group by booking_date.&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;select extract ( day from booking_date) as day_in_week ,count(*) as total_booking from booking where count(*) in (select max(count(*)) from booking group by week(booking_date)a&amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;group by week(booking_date)&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;2.Most booking which type of table&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;=&amp;gt;select max(count(t.type)) as table_type from table right join booking b on t.table_Id=b.table_id group by t.type&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;3.Total sales during day&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;=&amp;gt;select b.booking_date ,sum(p.total_price) as total_price from booking b left join payment p on b.payment_id=p.payment_id&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;strokeWidth=3;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="10" y="740" width="830" height="300" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
