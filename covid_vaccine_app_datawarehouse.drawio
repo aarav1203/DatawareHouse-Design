@@ -1,1 +1,70 @@
-<mxfile host="app.diagrams.net" modified="2022-12-23T14:25:37.570Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54" version="20.7.4" etag="0kHY4vX9t_nzf2mwKrrU" type="github"><diagram id="bBu72VvqVuwjmuchaMuY">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-23T15:11:49.498Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54" version="20.7.4" etag="OQPgoh16Q13A_X2Wbq6i" type="github">
+  <diagram id="kSLfTpKtLtOvNF3jPQc9" name="Page-1">
+    <mxGraphModel dx="1050" dy="3881" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VkBOrgYA_ejusXaAjgvq-1" value="Booking" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=16;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#6666FF;" vertex="1" parent="1">
+          <mxGeometry x="350" y="-2030" width="180" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="VkBOrgYA_ejusXaAjgvq-2" value="Booking_id&#xa;Person_id&#xa;Vaccine_id&#xa;Booking_Date&#xa;Booking_Timing" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=14;verticalAlign=top;resizable=0;rotatable=0;part=1;strokeWidth=3;perimeterSpacing=2;spacing=4;" vertex="1" parent="VkBOrgYA_ejusXaAjgvq-1">
+          <mxGeometry y="30" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="VkBOrgYA_ejusXaAjgvq-3" value="Vaccine" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=15;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#6666FF;" vertex="1" parent="1">
+          <mxGeometry x="60" y="-2080" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="VkBOrgYA_ejusXaAjgvq-4" value="Vaccine_id&#xa;Vaccine_name&#xa;Qty&#xa;Expiry_Date&#xa;Center_id" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=13;verticalAlign=top;resizable=0;rotatable=0;part=1;strokeWidth=3;" vertex="1" parent="VkBOrgYA_ejusXaAjgvq-3">
+          <mxGeometry y="30" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="VkBOrgYA_ejusXaAjgvq-5" value="Center" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=15;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#6666FF;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-1830" width="170" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="VkBOrgYA_ejusXaAjgvq-6" value="Center_id&#xa;Center_code&#xa;Name&#xa;Address&#xa;Room_No&#xa;Contact_no" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=13;verticalAlign=top;resizable=0;rotatable=0;part=1;strokeWidth=3;" vertex="1" parent="VkBOrgYA_ejusXaAjgvq-5">
+          <mxGeometry y="30" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="VkBOrgYA_ejusXaAjgvq-8" value="Person" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=15;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#6666FF;" vertex="1" parent="1">
+          <mxGeometry x="620" y="-2090" width="170" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="VkBOrgYA_ejusXaAjgvq-9" value="Person_id&#xa;Address&#xa;Age&#xa;Gender&#xa;Contact_no&#xa;Record_id&#xa;&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=14;verticalAlign=top;resizable=0;rotatable=0;part=1;strokeWidth=3;" vertex="1" parent="VkBOrgYA_ejusXaAjgvq-8">
+          <mxGeometry y="30" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="VkBOrgYA_ejusXaAjgvq-11" value="Vaccine_Record" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=15;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#6666FF;" vertex="1" parent="1">
+          <mxGeometry x="620" y="-1850" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="VkBOrgYA_ejusXaAjgvq-12" value="Record_id&#xa;Vaccine_name&#xa;First_dose_date&#xa;Second_dose_date&#xa;Booster_Dose_date&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=14;verticalAlign=top;resizable=0;rotatable=0;part=1;strokeWidth=3;" vertex="1" parent="VkBOrgYA_ejusXaAjgvq-11">
+          <mxGeometry y="30" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="VkBOrgYA_ejusXaAjgvq-18" value="" style="endArrow=none;html=1;rounded=0;fontSize=14;exitX=0.398;exitY=0.99;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.492;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VkBOrgYA_ejusXaAjgvq-4" target="VkBOrgYA_ejusXaAjgvq-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="-1880" as="sourcePoint" />
+            <mxPoint x="120" y="-1840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VkBOrgYA_ejusXaAjgvq-19" value="" style="endArrow=none;html=1;rounded=0;fontSize=14;entryX=0;entryY=0.133;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="VkBOrgYA_ejusXaAjgvq-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="-2050" as="sourcePoint" />
+            <mxPoint x="380" y="-2050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VkBOrgYA_ejusXaAjgvq-20" value="" style="endArrow=none;html=1;rounded=0;fontSize=14;exitX=1.009;exitY=0.116;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.012;entryY=0.143;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VkBOrgYA_ejusXaAjgvq-1" target="VkBOrgYA_ejusXaAjgvq-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="-2080" as="sourcePoint" />
+            <mxPoint x="610" y="-2080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VkBOrgYA_ejusXaAjgvq-21" value="" style="endArrow=none;html=1;rounded=0;fontSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VkBOrgYA_ejusXaAjgvq-9" target="VkBOrgYA_ejusXaAjgvq-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="-1890" as="sourcePoint" />
+            <mxPoint x="770" y="-1890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VkBOrgYA_ejusXaAjgvq-22" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Covid Vaccination Application Datawarehouse&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;strokeWidth=3;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="130" y="-2220" width="650" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="VkBOrgYA_ejusXaAjgvq-24" value="1. No. of person got 1st dose,2nd dose and all dose.&lt;br&gt;&lt;br&gt;=&amp;gt; Select count(case when v.first_dose_date is not null and second_dose_date is null end )as First_Dose_count,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;count(case when v.first_dose_date is not null and second_dose_date is not null and booster_dose_date is null end) as Second_Dose_count,count(case when v.first_dose is not null and second_dose_date is not null and booster_dose_date is not null end) as all_dose_count from person p inner join vaccine_record v on p.record_id=v.record_id&lt;br&gt;&lt;br&gt;2.Name of the maximum taken vaccine type.&lt;br&gt;&lt;br&gt;=&amp;gt;Select vaccine_name&amp;nbsp; as maximum_taken_vaccine from vaccine v_record group by vaccine_name having count(*)=(select count(*) from vaccine_record group by vaccine_name where vaccine_name=v.vaccine_name)&lt;br&gt;&lt;br&gt;3Age group wise Fully vaccinated record..&lt;br&gt;&lt;br&gt;=&amp;gt;Select count(case when p.age is between 5 and 18 then 1 end ) as small_age_group,&lt;br&gt;count(case when p.age is between 19 and 50 then 1 end ) as mid_age_group,&lt;br&gt;count(case when p.age is &amp;gt;50 then 1 end) as senior_age_group from person p inner join vaccine_record v on p.record_id=v.record_id where v.booster_dose_Date is not null&lt;br&gt;&lt;br&gt;4.No of Vaccine type present on each center.&lt;br&gt;&lt;br&gt;=&amp;gt;Select vc.center_id,vc.name as vaccine_name,v.qty as quantity from vaccine v right vaccine_center vc on v.center_id=vc.center_id&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;strokeWidth=3;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="20" y="-1630" width="820" height="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
