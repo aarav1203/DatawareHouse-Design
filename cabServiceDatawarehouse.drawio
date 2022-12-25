@@ -1,1 +1,97 @@
-<mxfile host="app.diagrams.net" modified="2022-12-25T15:01:13.850Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54" version="20.7.4" etag="9ZOdikSlsJi4bRLTu1m_" type="github"><diagram id="5GxfCHCDSFpJ6I2XPN8f">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-25T15:18:52.724Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54" version="20.7.4" etag="apU-jOQ8B_Z2EiZx9r8o" type="github">
+  <diagram id="qHY2yTSp3fBJaGRNNI-T" name="Page-1">
+    <mxGraphModel dx="1050" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IWZNTj69dKfaPIMbtL47-1" value="Trip" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=15;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#6666FF;" vertex="1" parent="1">
+          <mxGeometry x="330" y="300" width="170" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="IWZNTj69dKfaPIMbtL47-2" value="Trip_Id&#xa;Driver_id&#xa;Customer_id&#xa;Car_id&#xa;Device_id&#xa;Start_time&#xa;Start_loc_id&#xa;End_loc_id&#xa;Wait_time&#xa;End_time&#xa;Customer_rating&#xa;Driver_rating&#xa;Payment_id&#xa;Trip_status&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="IWZNTj69dKfaPIMbtL47-1">
+          <mxGeometry y="30" width="170" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="IWZNTj69dKfaPIMbtL47-3" value="Customer" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=15;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#6666FF;" vertex="1" parent="1">
+          <mxGeometry x="20" y="250" width="170" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="IWZNTj69dKfaPIMbtL47-4" value="Customer_id&#xa;Name&#xa;Email&#xa;Address&#xa;Phone&#xa;Password&#xa;Joined_date&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="IWZNTj69dKfaPIMbtL47-3">
+          <mxGeometry y="30" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="IWZNTj69dKfaPIMbtL47-5" value="Location" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=15;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#6666FF;" vertex="1" parent="1">
+          <mxGeometry x="30" y="510" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="IWZNTj69dKfaPIMbtL47-6" value="Location_id&#xa;Latitude&#xa;Longitude&#xa;City&#xa;State&#xa;Landmark&#xa;Country" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="IWZNTj69dKfaPIMbtL47-5">
+          <mxGeometry y="30" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IWZNTj69dKfaPIMbtL47-7" value="Driver" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=15;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#6666FF;" vertex="1" parent="1">
+          <mxGeometry x="630" y="250" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="IWZNTj69dKfaPIMbtL47-8" value="Driver_id&#xa;Name&#xa;Address&#xa;Email&#xa;Phone&#xa;Car_id&#xa;DL_number&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="IWZNTj69dKfaPIMbtL47-7">
+          <mxGeometry y="30" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IWZNTj69dKfaPIMbtL47-9" value="Payment" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=15;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#6666FF;" vertex="1" parent="1">
+          <mxGeometry x="330" y="600" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="IWZNTj69dKfaPIMbtL47-10" value="Payment_id&#xa;Type&#xa;Base_rate&#xa;Surge_rate&#xa;Trip_amount&#xa;Total_amount&#xa;Transaction_id" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="IWZNTj69dKfaPIMbtL47-9">
+          <mxGeometry y="30" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IWZNTj69dKfaPIMbtL47-12" value="Cars" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=15;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#6666FF;" vertex="1" parent="1">
+          <mxGeometry x="630" y="470" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="IWZNTj69dKfaPIMbtL47-13" value="Car_Id&#xa;Driver_id&#xa;Model&#xa;License_plate_no&#xa;Type&#xa;Base_rate&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="IWZNTj69dKfaPIMbtL47-12">
+          <mxGeometry y="30" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="IWZNTj69dKfaPIMbtL47-16" value="Documents" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=15;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#6666FF;" vertex="1" parent="1">
+          <mxGeometry x="620" y="650" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="IWZNTj69dKfaPIMbtL47-17" value="Doc_Id&#xa;Name&#xa;Driver_id&#xa;Category&#xa;Code&#xa;Country&#xa;Expiry_Date&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="IWZNTj69dKfaPIMbtL47-16">
+          <mxGeometry y="30" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="IWZNTj69dKfaPIMbtL47-19" value="" style="endArrow=none;html=1;rounded=0;fontSize=15;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="IWZNTj69dKfaPIMbtL47-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="424.5" as="sourcePoint" />
+            <mxPoint x="330" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IWZNTj69dKfaPIMbtL47-20" value="" style="endArrow=none;html=1;rounded=0;fontSize=15;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" target="IWZNTj69dKfaPIMbtL47-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="550" as="sourcePoint" />
+            <mxPoint x="350" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IWZNTj69dKfaPIMbtL47-21" value="" style="endArrow=none;html=1;rounded=0;fontSize=15;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="IWZNTj69dKfaPIMbtL47-2" target="IWZNTj69dKfaPIMbtL47-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="540" as="sourcePoint" />
+            <mxPoint x="500" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IWZNTj69dKfaPIMbtL47-22" value="" style="endArrow=none;html=1;rounded=0;fontSize=15;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="340" as="sourcePoint" />
+            <mxPoint x="630" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IWZNTj69dKfaPIMbtL47-23" value="" style="endArrow=none;html=1;rounded=0;fontSize=15;entryX=0.345;entryY=-0.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="IWZNTj69dKfaPIMbtL47-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="400" as="sourcePoint" />
+            <mxPoint x="680" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IWZNTj69dKfaPIMbtL47-27" value="" style="endArrow=none;html=1;rounded=0;fontSize=15;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="IWZNTj69dKfaPIMbtL47-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="500" as="sourcePoint" />
+            <mxPoint x="630" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IWZNTj69dKfaPIMbtL47-28" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;" edge="1" parent="1" target="IWZNTj69dKfaPIMbtL47-8">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="780" y="680" as="sourcePoint" />
+            <mxPoint x="830" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IWZNTj69dKfaPIMbtL47-29" value="Cab Booking App DataWarehouse" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="390" y="90" width="100" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
